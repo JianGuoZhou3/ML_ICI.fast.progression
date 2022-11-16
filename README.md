@@ -15,9 +15,9 @@ Jian-Guo Zhou1,2,3,4*#, Jie Yang5*, Haitao Wang6, Ada Hang-Heng Wong7, Fangya Ta
 8 Department of Analytics, Harrisburg University of Science & Technology, Harrisburg, Pennsylvania, USA
 9 Department of Biostat & programming, Sanofi, New Jersey, USA.
 
- JGZ and JY contributed equally as first authors.
- JGZ, WZZ, HM and USG contributed equally as senior authors.
-Correspondence:
+### JGZ and JY contributed equally as first authors.
+###　JGZ, WZZ, HM and USG contributed equally as senior authors.
+## Correspondence:
 Prof. Dr. Udo Gaipl
 Head of Translational Radiobiology
 Department of Radiation Oncology
@@ -44,10 +44,11 @@ Guangdong Lung Cancer Institute, Guangdong Provincial People's. Hospital, Guangd
 E-mail address: 13609777314@163.com
 
 
-Acknowledgments
+## Acknowledgments
 We would like to thank all of the patients, investigators and staff involved in the FIR, BIRCH, POPLAR and OAK studies who released and shared their data. This publication is based on research using data from data contributors, Roche, that has been made available through Vivli, Inc. (Data Request ID: 5935; Lead Investigator: Dr. Jian-Guo Zhou). Vivli has not contributed to or approved, and is not in any way responsible for, the contents of this publication. 
 
+## Funding
 This research was funded by the National Natural Science Foundation of China (Grant No. 81660512), the National Natural Science Foundation of Guizhou Province (Grant No. ZK2021-YB435), Research Programs of Science and Technology Commission Foundation of Zunyi City (Grant Nos. HZ2019-11, HZ2019-07), Research Programs of Health Commission Foundation of Guizhou Province (Grant Nos. gzwjkj2019-1-073, gzwjkj2019-1-172), Lian Yun Gang Shi Hui Lan Public Foundation (Grant No. HL-HS2020-92).
-![image](https://user-images.githubusercontent.com/20199977/202160919-1cce9b35-15b8-4a66-a40a-913ecfd6125c.png)
+
 
 
