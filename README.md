@@ -18,7 +18,7 @@ Jian-Guo Zhou1,2,3,4*#, Jie Yang5*, Haitao Wang6, Ada Hang-Heng Wong7, Fangya Ta
 ### JGZ and JY contributed equally as first authors.
 ###　JGZ, WZZ, HM and USG contributed equally as senior authors.
 ## Correspondence:
-Prof. Dr. Udo Gaipl
+Prof. Dr. Udo Gaipl:
 Head of Translational Radiobiology
 Department of Radiation Oncology
 Universitätsklinikum Erlangen
@@ -28,7 +28,7 @@ Tel Office: +49 (0)9131-85-44258
 Fax: +49 (0)9131-85-39335
 E-mail address: udo.gaipl@uk-erlangen.de 
 
-Prof. Dr. Hu Ma
+Prof. Dr. Hu Ma:
 Director of Department of Oncology
 Vice President of the second affiliated Hospital of Zunyi Medical University
 Intersection of Xinlong And Xinpu Avenue, 563000, Zunyi, China
