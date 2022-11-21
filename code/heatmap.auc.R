@@ -33,14 +33,20 @@ Top = HeatmapAnnotation(Subtype=anno_block(gp = gpar(fill = c('#fe6d73','#17c3b2
 # hh <- matrix(abs(rnorm(60,0.8,0.4)),5,12)%>%as.data.frame()
 # hh[hh>1] <- 0.91
 
-library(readxl)
-hh <- read_excel("hh.21.panel.xlsx")
-hh <- read_excel("hh.9.panel.xlsx")
-hh <- read_excel("hh.6.panel.xlsx")
-hh <- read_excel("hh.4.panel.xlsx")
-hh <- data.frame(hh)
-rownames(hh)<-hh$ML.method
-hh<-hh[,-1]
+# colnames(auc.overall_21_lab)
+# [1] "Sensitivity"          "Specificity"          "Pos.Pred.Value"       "Neg.Pred.Value"       "Precision"           
+# [6] "Recall"               "F1"                   "Prevalence"           "Detection.Rate"       "Detection.Prevalence"
+# [11] "Balanced.Accuracy"    "Accuracy"             "Kappa"                "AccuracyLower"        "AccuracyUpper"       
+# [16] "AccuracyNull"         "AccuracyPValue"       "McnemarPValue"        "id"                   "dataset"             
+# [21] "marker" 
+hh <-auc.overall_21_lab
+hh <-auc.overall_lab_plus_clin
+hh <-auc.overall_9_marker
+hh <-auc.overall_6_marker
+hh <-auc.overall_4_marker
+
+hh <-data.frame(t(hh[,c(1,2,12,3,4,5,6,7)]))
+# hh <-auc.overall_21_lab[,c(12,5,6,7,2)]
 colnames(hh)<-c(rep(c("GLM","LASSO","SVM","DT","RF","XGBoost","GBM"),3))
 cell_fun = function(j, i, x, y, width, height, fill) {
   grid.text(round(hh[i, j],digits = 2), x, y, gp = gpar(fontsize = 9))}
@@ -49,6 +55,7 @@ cell_fun = function(j, i, x, y, width, height, fill) {
 pdf(file = "21 model auc all.pdf",   # The directory you want to save the file in
     width = 8, # The width of the plot in inches
     height = 5.5) # The height of the plot in inches
+pdf(file = "lab plus clin model auc all.pdf", width = 8, height = 5.5) 
 pdf(file = "9 model auc all.pdf", width = 8, height = 5.5) 
 pdf(file = "6 model auc all.pdf", width = 8, height = 5.5) 
 pdf(file = "4 model auc all.pdf", width = 8, height = 5.5) 
