@@ -52,4 +52,4 @@ We would like to thank all of the patients, investigators and staff involved in 
 This research was funded by the National Natural Science Foundation of China (Grant No. 81660512), the National Natural Science Foundation of Guizhou Province (Grant No. ZK2021-YB435), Research Programs of Science and Technology Commission Foundation of Zunyi City (Grant Nos. HZ2019-11, HZ2019-07), Research Programs of Health Commission Foundation of Guizhou Province (Grant Nos. gzwjkj2019-1-073, gzwjkj2019-1-172), Lian Yun Gang Shi Hui Lan Public Foundation (Grant No. HL-HS2020-92).
 
 
-
+Zhou J, Yang J, Wang H, et alMachine learning based on blood test biomarkers predicts fast progression in advanced NSCLC patients treated with immunotherapyBMJ Oncology 2024;3:e000128. doi: 10.1136/bmjonc-2023-000128
